@@ -8,9 +8,6 @@ include 'Validation.php';
  */
 class DateValidator {
 
-    public $isValid;
-    protected $message;
-
     public function validateHistoricalDate(String $dateString)
     {
         $dateValid = new Validation();
